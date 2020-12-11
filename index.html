@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="./javascript/localization.js"></script>
+        <script src="./javascript/data.js"></script>
+        <script src="./javascript/common functions.js"></script>
+        <script src="./javascript/highlights.js"></script>
+        <script src="./javascript/projects.js"></script>
+        <link rel="shortcut icon" href="./assets/GabrielIcon.png"/>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <title>Gabriel Henrique Serapião Tavares</title>
+    </head>
+    <body id="top" data-spy="scroll" data-target=".navbar">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a id="navAboutMe" class="nav-link scroll" href="#top">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navHighlights" class="nav-link scroll" href="#highlights">Highlights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="navProjects" class="nav-link scroll" href="#projects">Projects</a>
+                    </li>            
+                </ul>
+            </div>
+        </nav>
+
+        <!-- About me -->
+        <div class="row align-items-center min-vh-100">
+            <div class="col-sm-11 col-md-4 mx-4 mb-3">
+                <img src="./assets/profile.jpeg" alt="Profile picture of Gabriel Henrique" class="profile rounded-circle img-thumbnail">
+            </div>
+            <div class="col-sm-11 col-md-7">
+                <h1 id="introTitle" class="mb-3 px-3">Hello there!</h1>
+                <p id="intro-p1" class="mb-2 px-3">Sou um Engenheiro de Software muito dedicado, engajado e gosto muito do que faço. No início de 2020 recebi a grande oportunidade de fazer parte da Apple Developer Academy | Mackenzie e mudar completamente minha carreira profissional.</p>
+                <p id="intro-p2" class="mb-2 px-3">Na Academy participei de projetos muito interessantes que trouxeram grandes experiências tanto em código quanto em outras habilidades necessárias para se tocar um projeto, abaixo listei alguns dos projetos que contribuí com o desenvolvimento.</p>
+                <p id="intro-p3" class="mb-2 px-3">Acredito que sou uma pessoa muito fácil de se trabalhar, sempre muito prestativo e disposto a aprender, pode contar comigo a qualquer hora!</p>
+                <p id="intro-p4" class="mb-2 px-3">Se deseja saber mais sobre mim ou até mesmo ter uma conversa, pode me contatar em qualquer uma das redes abaixo.</p>
+                <div class="px-3">
+                    <a href="https://github.com/gahenrique" target="_blank"><img src="./assets/Github.png"  class="img-link float-left"></a>
+                    <a href="https://www.linkedin.com/in/gh-tavares" target="_blank"><img src="./assets/LinkedIN.png"  class="img-link spacing float-left"></a>
+                    <a href="mailto:contato.ghtavares@gmail.com" target="_blank" class="clear"><img src="./assets/Email.png"  class="img-link spacing float-left"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Highlights -->
+        <section id="highlights" class="container">
+            <h1 id="highlightTitle" style="padding: 8vh 0 3vh 0;">Highlights</h1>
+        </section>
+
+        <script>
+            displayHighlight();
+        </script>
+
+        <div align="center">
+            <iframe width="720" height="405"
+                src="https://www.youtube.com/embed/z4l_z60ELoI">
+            </iframe>
+        </div>
+
+        <!-- Projects -->
+        <section id="projects" class="container">
+            <h1 id="projectsTitle" style="padding: 8vh 0 3vh 0;">Projects</h1>
+        </section>
+
+        <script>
+            displayProjects();
+        </script>
+    </body>
+</html>

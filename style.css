@@ -1,0 +1,114 @@
+:root {
+    --title: #454fd1;
+    --miniTitle: white;
+    --activeColor: white;
+    --backgroundActiveColor: #454fd1;
+    --background: #222222;
+    --backgroundCard: #555555;
+}
+
+html,
+body {
+    background-color: var(--background);
+    font-family: Montserrat;
+    color: white;
+}
+
+h1 {
+    font-style: bold;
+    font-weight: 600;
+    color: var(--title);
+}
+
+h2 {
+    font-style: bold;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    color: var(--miniTitle)
+}
+
+h3 {
+    font-style: bold;
+    font-family: Nunito Sans;
+    font-weight: 400;
+    color: var(--miniTitle)
+}
+
+.height100 {
+    height: 100%;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.noPadding {
+    padding: 0 !important;
+}
+
+.active {
+    color: var(--activeColor) !important;
+    background-color:var(--backgroundActiveColor);
+    border-radius: 25px;
+}
+
+.nav-link {
+    margin: 0 20px 0 20px;
+    padding-right: 30px !important;
+    padding-left: 30px !important;
+}
+
+#highlights {
+    margin-bottom: 10vh;
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.availableOn {
+    height: 40px;
+    width: 135px;
+}
+
+.navbar {
+    background-color: var(--background) !important;
+}
+
+.img-link {
+    height: 4vh;
+}
+
+.img-link.spacing {
+    margin-left: 1rem;
+}
+
+.img-link:hover {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.card {
+    background-color: var(--backgroundCard);
+    border-radius: 20px;
+}
+
+#navAboutMe {
+    color: white;
+}
+
+#navHighlights {
+    color: white;
+}
+
+#navProjects {
+    color: white;
+}
+
+#imageBox {
+    border-radius: 25;
+}
